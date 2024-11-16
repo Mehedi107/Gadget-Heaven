@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+body {
+  font-family: 'Sora', sans-serif;
+  background-color: #f7f7f7;
+  padding-top: 1.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    padding-top: 1.2rem;
+  }
+}
+
+.active-category {
+  background-color: #9538e2;
+  color: #ffffff;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
